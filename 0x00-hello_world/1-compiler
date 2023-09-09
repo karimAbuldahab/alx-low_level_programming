@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -C $CFILE -o `head -c -2 <<< $CFILE`o	
+gcc -c $CFILE -o `head -c -2 <<< $CFILE`o	
