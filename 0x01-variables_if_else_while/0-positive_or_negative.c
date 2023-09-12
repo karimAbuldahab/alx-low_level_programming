@@ -6,6 +6,7 @@
  *Return: always 0 (success)
 */
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 int main(void)
 {
@@ -15,7 +16,7 @@ int main(void)
 	
 	if(n>0)
 		printf("%d is positive\n",n);
-	if(n=0)
+	elseif(n=0)
 		printf("%d is zero\n",n);
 	else
 		printf("%d is negative\n",n);
