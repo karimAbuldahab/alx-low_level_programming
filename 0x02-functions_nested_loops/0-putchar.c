@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
  *main - entry point
@@ -8,14 +8,13 @@
  *
  *Return: always 0 (success)
 */
-
 int main(void)
 {
+	char list[] =  "_putchar";
 
+	for (int count = 0; count <= 8; count++)
+		_putchar(list[count]);
 
-printf("_putchar\n");
-
-return (0);
-
-
+	_putchar('\n');
+	return (0);
 }
