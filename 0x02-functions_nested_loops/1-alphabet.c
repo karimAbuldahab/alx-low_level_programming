@@ -4,7 +4,7 @@
 /**
  *main - entry point
  *
- *Description: a function of c to
+ *Description: a function of c to print alphabet
  *
  *Return: always 0 (success)
 */
