@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- *_isalpha - entry point
+ *print_sign - entry point
  *
- *@c: a function of c to check lower
+ *@n: a function of c to check lower
  *
  *Return: 0 or 1 (success)
 */
 int print_sign(int n)
 {
-	if (n >= 48)
+	if (n >= 0)
 	{
-		if (n == 48)
+		if (n == 0)
 			{_putchar(48);
 			return (0); }
 		_putchar(43);
 		return (1);
 	}
 	_putchar(45);
-	return (0);
+	return (-1);
 }
